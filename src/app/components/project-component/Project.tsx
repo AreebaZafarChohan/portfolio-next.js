@@ -8,63 +8,63 @@ const projects = [
     description:
       "You can check and maintain your weight with this bmi calculator. Here is the link below",
     image: "/images/bmi.jpg",
-    url: "",
+    url: "https://github.com/AreebaZafarChohan/BMI-Calculator-Project.git",
   },
   {
     title: "Calculator",
     description:
       "I made this calculator with typescript and node.js. Here is the link below",
     image: "/images/calc.jpg",
-    url: "",
+    url: "https://github.com/AreebaZafarChohan/Node-Projects.git",
   },
   {
     title: "Quiz Website",
     description:
       "I made this website with html css and javascript. In this you can practice with typescript quizzes",
     image: "/images/quiz.jpg",
-    url: "",
+    url: "https://areebazafarchohan.github.io/Quiz-Website-Step02ToStep03d/",
   },
   {
     title: "ATM",
     description:
       "I made this atm project with typescript and node.js. Here is the link below check i out and share your feedback",
     image: "/images/atm.jpg",
-    url: "",
+    url: "https://github.com/AreebaZafarChohan/Node-Projects.git",
   },
   {
     title: "Typing Speed Tester",
     description:
       "I made this typing speed tester with typescript and node.js. Test your typing speed and share your feedback",
     image: "/images/typingSpeed.jpg",
-    url: "",
+    url: "https://github.com/AreebaZafarChohan/Typing-Speed.git",
   },
   {
     title: "Student Management System",
     description:
       "I made this student management system with typescript and node.js. Here is the link below",
     image: "/images/student-manage.jpg",
-    url: "",
+    url: "https://github.com/AreebaZafarChohan/Node-Projects.git",
   },
   {
     title: "Ecommerce Website",
     description:
       "I made this website with html css and javascript so check it out and share your feedback",
     image: "/images/ecommerce.jpg",
-    url: "",
+    url: "https://areebazafarchohan.github.io/Hijabayas-Ecommerce-Website ",
   },
   {
     title: "Adventure Game",
     description:
       "I made this adventure game with typescript and node.js. Here is the link below",
     image: "/images/game.jpg",
-    url: "",
+    url: "https://github.com/AreebaZafarChohan/Node-Projects.git",
   },
   {
     title: "My Portfolio",
     description:
       "I made this portfolio with html css and javascript so check it out and share your feedback",
     image: "/images/portfolio.jpg",
-    url: "",
+    url: "https://areebazafarchohan.github.io/Portfolio_greenTheme/",
   },
 ];
 

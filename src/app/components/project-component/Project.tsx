@@ -56,7 +56,7 @@ const projects = [
     title: "Adventure Game",
     description:
       "I made this adventure game with typescript and node.js. Here is the link below",
-    image: "/images/ts.jpg",
+    image: "/images/game.jpg",
     url: "",
   },
   {

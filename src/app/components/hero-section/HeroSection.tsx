@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left mb-4">
           <h1 className="mb-6 font-extrabold sm:text-5xl lg:text-6xl text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-600 to-purple-500">
          <span className="text-white">
-            Hi, I&aposm{" "}
+            Hi, I am{" "}
             </span>
             <br />
             <TypeAnimation
@@ -31,11 +31,11 @@ const HeroSection = () => {
     />
           </h1>
           <p className="lg:text-lg text-base sm:text-lg mb-6">
-            a passionate front-end web developer. I&aposve honed my skills in a
+            a passionate front-end web developer. I have honed my skills in a
             variety of technologies, including TypeScript, JavaScript, HTML,
             CSS, and Node.js. I love creating clean, efficient, and responsive
-            websites that provide a great user experience. Whether it&aposs coding
-            up a new feature or optimizing performance, I&aposm always eager to take
+            websites that provide a great user experience. Whether it is coding
+            up a new feature or optimizing performance, I am always eager to take
             on new challenges and continue learning in this ever-evolving field.
           </p>
         <div>

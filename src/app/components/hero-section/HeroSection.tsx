@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -40,9 +39,9 @@ const HeroSection = () => {
             on new challenges and continue learning in this ever-evolving field.
           </p>
         <div>
-            <button className="sm:text-center w-full lg:w-[8rem] px-4 py-3 rounded-full mr-3 sm:w-fit font-semibold bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600"> <Link href={"/contact"}>Contact</Link></button>
+            <button className="sm:text-center w-full lg:w-[8rem] px-4 py-3 rounded-full mr-3 sm:w-fit font-semibold bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600"> Contact</button>
 
-            <button  className="sm:text-center w-full lg:w-[8rem] px-1 py-1 rounded-full mr-3 sm:w-fit font-semibold mt-3 bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 hover:bg-slate-800"> <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2"><a href="mailto:areebazafar715@gmail.com">Hire Me</a></span> </button>
+            <button  className="sm:text-center w-full lg:w-[8rem] px-1 py-1 rounded-full mr-3 sm:w-fit font-semibold mt-3 bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 hover:bg-slate-800"> <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2"> Hire Me</span> </button>
         </div>
         </div>
         <div className="col-span-5 place-self-center lg:mt-0 mt-4 ">

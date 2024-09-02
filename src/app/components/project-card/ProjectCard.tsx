@@ -26,7 +26,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="px-1 py-1 rounded-full  bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 "> <span className="click bg-[#121212] rounded-full px-3 py-2">Click Here</span>
+          className="px-1 py-1 rounded-full  bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 "> <span className="click bg-[#121212] rounded-full px-3 py-2 text-white">Click Here</span>
         </a>
       </div>
     </div>

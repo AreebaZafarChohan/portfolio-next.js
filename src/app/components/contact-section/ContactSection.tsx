@@ -4,7 +4,7 @@ const ContactSection: React.FC = () => {
   return (
     <section>
       <div className="container mx-auto px-4 lg:px-8 py-8">
-        <h2 className="lg:text-4xl md:text-4xl text-3xl font-bold text-center mb-12">
+        <h2 className="lg:text-4xl md:text-4xl text-3xl font-bold text-center mb-12 text-white">
           Contact{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-pink-500 to-blue-400 font-serif lg:text-5xl md:text-5xl text-4xl">
             Me

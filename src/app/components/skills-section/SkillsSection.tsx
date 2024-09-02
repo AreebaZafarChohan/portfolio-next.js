@@ -6,7 +6,7 @@ const SkillsSection: React.FC = () => {
   return (
     <section>
       <div className="container mx-auto py-4 px-4">
-        <h2 className="lg:text-4xl md:text-4xl text-3xl  font-bold text-center mb-12 ">
+        <h2 className="lg:text-4xl md:text-4xl text-3xl  font-bold text-center mb-12 text-white">
           My{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-pink-500 to-blue-400 font-serif lg:text-5xl md:text-5xl text-4xl">
             Skills

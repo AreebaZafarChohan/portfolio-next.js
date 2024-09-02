@@ -26,7 +26,7 @@ const ContactSection: React.FC = () => {
                   type="text"
                   id="fullName"
                   placeholder="Full Name"
-                  className="box text-slate-500 mt-1 p-2 sm:p-3 border-2 border-purple-500 bg-transparent rounded w-full focus:bg-white"
+                  className="box text-slate-500 mt-1 p-2 sm:p-3 border-2 border-purple-500 bg-transparent rounded w-full focus:bg-white focus:text-black"
                 />
               </div>
 
@@ -42,7 +42,7 @@ const ContactSection: React.FC = () => {
                   type="text"
                   id="email"
                   placeholder="Email"
-                  className="box text-slate-500 mt-1 p-2 sm:p-3 border-2 border-purple-500 bg-transparent rounded w-full focus:bg-white"
+                  className="box text-slate-500 mt-1 p-2 sm:p-3 border-2 border-purple-500 bg-transparent rounded w-full focus:bg-white focus:text-black"
                 />
               </div>
 
@@ -58,7 +58,7 @@ const ContactSection: React.FC = () => {
                   type="text"
                   id="phone"
                   placeholder="Phone Number"
-                  className="box text-slate-500 mt-1 p-2 sm:p-3 border-2 border-purple-500 bg-transparent rounded w-full focus:bg-white"
+                  className="box text-slate-500 mt-1 p-2 sm:p-3 border-2 border-purple-500 bg-transparent rounded w-full focus:bg-white focus:text-black"
                 />
               </div>
 
@@ -74,7 +74,7 @@ const ContactSection: React.FC = () => {
                   type="text"
                   id="subject"
                   placeholder="Subject"
-                  className="box text-slate-500 mt-1 p-2 sm:p-3 rounded border-2 border-purple-500 bg-transparent w-full focus:bg-white"
+                  className="box text-slate-500 mt-1 p-2 sm:p-3 rounded border-2 border-purple-500 bg-transparent w-full focus:bg-white focus:text-black"
                 />
               </div>
             </div>
@@ -92,7 +92,7 @@ const ContactSection: React.FC = () => {
                   id="message"
                   placeholder="Message"
                   className="box text-slate-500 mt-1 p-2 sm:p-3 h-32 sm:h-48  rounded border-2 border-purple-500 bg-transparent w-full
-                  resize-none focus:bg-white"
+                  resize-none focus:bg-white focus:text-black"
                 />
               </div>
               <button type="submit" 

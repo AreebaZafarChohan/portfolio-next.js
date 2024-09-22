@@ -43,7 +43,7 @@ const Navbar = () => {
       className='rounded-full image'
       />
       </Link>
-        <div className='mobile-menu block md:hidden'>
+        <div className='block md:hidden'>
            {!isNavbarOpen? (
             <button onClick={() => setIsNavbarOpen(true)} className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-pink-500 hover:border-purple-700'>
                 <Bars3Icon className="h-5 w-5" />
@@ -54,8 +54,8 @@ const Navbar = () => {
             </button>
            )}
         </div>
-        <div className='menu hidden md:block md:w-auto pt-6 pr-6' id='navbar'>
-            <ul className='flex md:flex-row p-4 md:p-0 md:space-x-8 mt-0'>
+        <div className='hidden md:flex md:space-x-8 pt-6 pr-6' id='navbar'>
+            <ul className='flex items-center'>
                {
                 navbarLinks.map((link, index) => (
                     <li key={index}>

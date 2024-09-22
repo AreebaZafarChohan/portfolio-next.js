@@ -54,8 +54,8 @@ const Navbar = () => {
             </button>
            )}
         </div>
-        <div className='hidden md:flex md:space-x-8 pt-6 pr-6' id='navbar'>
-            <ul className='flex items-center'>
+        <div className='hidden md:block md:w-auto pt-6 pr-6' id='navbar'>
+            <ul className='flex md:flex-row p-4 md:p-0 md:space-x-8 mt-0'>
                {
                 navbarLinks.map((link, index) => (
                     <li key={index}>

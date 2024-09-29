@@ -23,8 +23,9 @@ export default function RootLayout({
       <body className={inter.className}>
       < Meteors number={20}/>
       <Navbar />
-      {children}</body>
+      {children}
       <Footer />
+      </body>
     </html>
   );
 }

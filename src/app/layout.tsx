@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Meteors } from "./components/ui/meteors";
 import "./style.css"
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
       < Meteors number={20}/>
+      <Navbar />
       {children}</body>
+      <Footer />
     </html>
   );
 }

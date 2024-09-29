@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
             <ul className='flex flex-col sm:flex-row justify-center items-center md:p-0 md:space-x-8 mt-0'>
                {
                 navbarLinks.map((link, index) => (
-                    <li key={index} id="footer-li">
+                    <li key={index} id="footer-li" className="transition-colors transform duration-300 border-b-2 border-transparent hover:scale-105 hover:text-black hover:border-black">
                         <NavLink href={link.path} title={link.title} isFooter={true}/>
                     </li>
                 ))

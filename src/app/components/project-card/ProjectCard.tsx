@@ -9,14 +9,14 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   url,
 }) => {
   return (
-    <div className="box bg-transparent rounded-lg overflow-hidden flex flex-col justify-between items-center border-2 border-purple-400 text-center">
+    <div className="transition-all duration-1000 ease-in-out hover:shadow-[0_0_8px_6px_rgb(166,87,197)] hover:scale-105 bg-transparent rounded-lg overflow-hidden flex flex-col justify-between items-center border-2 border-purple-400 text-center">
       <div className="relative mt-6 w-40 h-40">
       <Image
         src={image} 
         alt={title}
         layout="fill"
         objectFit="cover"
-        className="image-box rounded-full"
+        className="shadow-[0_0_8px_4px_rgb(160,84,190)] rounded-full"
       />
       </div>
       <div className="p-4">
@@ -26,7 +26,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="px-1 py-1 rounded-full  bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 "> <span className="click bg-[#121212] rounded-full px-3 py-2 text-white">Click Here</span>
+          className="px-1 py-1 rounded-full  bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 "> <span className="transition-colors transform duration-300 border-2 border-transparent hover:scale-150 hover:border-[#d62c8f] bg-[#121212] rounded-full px-3 py-2 text-white">Click Here</span>
         </a>
       </div>
     </div>

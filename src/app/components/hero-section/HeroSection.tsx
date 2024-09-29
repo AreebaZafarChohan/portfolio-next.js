@@ -55,7 +55,7 @@ const HeroSection = () => {
               alt="Hero Section Image"
               width={350}
               height={350}
-              className="image rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="transition-shadow duration-300 ease-in hover:shadow-[0_0_8px_6px_rgba(182,27,79)] rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             />
           </div>
         </div>

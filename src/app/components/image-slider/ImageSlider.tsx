@@ -22,7 +22,6 @@ const images = [
 
  const ImageSlider: React.FC = () => {
   return (
-    <>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
       {images.map((image, index) => (
             <SwiperSlide key={index}>
@@ -38,7 +37,6 @@ const images = [
         }
 
       </Swiper>
-    </>
   );
 };
 
